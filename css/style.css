@@ -78,3 +78,31 @@ footer {
 footer p {
   margin: 0;
 }
+@media (max-width: 600px) {
+  header {
+    padding: 20px 12px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  main {
+    width: auto;
+    margin: 20px 12px;
+    padding: 18px;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  footer {
+    margin-top: 20px;
+  }
+}
