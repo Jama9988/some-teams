@@ -18,5 +18,6 @@ $pageTitle = 'About Me';
         <p>Hello! My name is Mohamed Hussein.</p>
         <p>I am learning PHP and building this website as part of my web development course.</p>
     </main>
+    <?php require_once __DIR__ . '/footer.php'; ?>
 </body>
 </html>

@@ -1,69 +1,80 @@
-
 /* Basic page styling */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f4f6f9;
-    color: #222;
-    line-height: 1.6;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  color: #222;
+  line-height: 1.6;
 }
 
 /* Shared header and navigation */
 header {
-    background-color: #172554;
-    color: white;
-    padding: 24px;
-    text-align: center;
+  background-color: #172554;
+  color: white;
+  padding: 24px;
+  text-align: center;
 }
 
 header h1 {
-    margin: 0 0 12px;
+  margin: 0 0 12px;
 }
 
 nav {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 nav a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Main content */
 main {
-    max-width: 900px;
-    margin: 32px auto;
-    padding: 24px;
-    background-color: white;
-    border-radius: 12px;
+  max-width: 900px;
+  margin: 32px auto;
+  padding: 24px;
+  background-color: white;
+  border-radius: 12px;
 }
 
 /* Team list */
 ul {
-    padding-left: 24px;
+  padding-left: 24px;
 }
 
 li {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 li a {
-    color: #1d4ed8;
-    font-weight: bold;
-    text-decoration: none;
+  color: #1d4ed8;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 li a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #172554;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  margin-top: 32px;
+}
+
+footer p {
+  margin: 0;
 }

@@ -30,6 +30,7 @@ require_once __DIR__ . '/resources/data.php';
             <?php endforeach; ?>
         </ul>
     </main>
+    <?php require_once __DIR__ . '/footer.php'; ?>
 </body>
 </html>
 
