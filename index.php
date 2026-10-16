@@ -30,6 +30,18 @@ require_once __DIR__ . '/resources/data.php';
             <?php endforeach; ?>
         </ul>
     </main>
+    <button id="backToTop" aria-label="Back to top">↑ Back to Top</button>
+
+<script>
+    const backToTop = document.getElementById('backToTop');
+
+    backToTop.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+</script>
     <?php require_once __DIR__ . '/footer.php'; ?>
 </body>
 </html>
